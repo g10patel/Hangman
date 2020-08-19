@@ -169,8 +169,6 @@ class HangmanGUI(Tk):
         self.result.grid(row=19, column=0, columnspan=2)
         self.button1=Button(self,text='Bot Chooses Word',command=lambda:self.botPlayer())
         self.button1.grid(row=14,column=0)
-        self.button2=Button(self,text='Player Chooses Word',command=lambda:self.playerChoice())
-        self.button2.grid(row=14,column=1)
 
 
 HangmanGUI().mainloop()
